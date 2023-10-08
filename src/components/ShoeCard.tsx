@@ -9,7 +9,7 @@ interface sho{
 }
 
 const ShoeCard = ({ imgUrl, changeBigShoe, bigShoeImg }: props) => {
-  const handleShoe = () => {
+  const   handleShoe = () => {
     if (bigShoeImg !== imgUrl.bigShoe) {
         changeBigShoe(imgUrl)
       }
