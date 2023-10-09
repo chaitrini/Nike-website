@@ -1,5 +1,6 @@
 import '../index.css'
-import { customer1, customer2 } from '../assets/images';
+import customer1 from '../assets/images/customer1.jpeg';
+import customer2 from '../assets/images/customer2.svg';
 import ReviewCard from '../components/ReviewCard';
 
 interface rev{

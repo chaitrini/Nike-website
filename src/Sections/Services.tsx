@@ -1,4 +1,6 @@
-import { truckFast, shieldTick, support } from '../assets/icons';
+import truckFast from "../assets/icons/truck-fast.svg";
+import shieldTick from "../assets/icons/shield-tick.svg";
+import support   from "../assets/icons/support.svg";
 import ServiceCard from '../components/ServiceCard'
 import '../index.css'
 

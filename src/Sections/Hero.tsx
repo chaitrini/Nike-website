@@ -1,8 +1,14 @@
 import Button from "../components/Button";
 import arrow from '../assets/icons/arrow-right.svg'
 //import bigshoe1 from '../assets/images/big-shoe1.png'
-import { bigShoe1, bigShoe2, bigShoe3, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from
-  "../assets/images";
+import bigShoe1 from "../assets/images/big-shoe1.png";
+import bigShoe2 from "../assets/images/big-shoe2.png";
+import bigShoe3 from "../assets/images/big-shoe3.png";
+import thumbnailShoe1 from "../assets/images/thumbnail-shoe1.svg";
+import thumbnailShoe2 from "../assets/images/thumbnail-shoe2.svg";
+import thumbnailShoe3   from "../assets/images/thumbnail-shoe3.svg";
+
+  
 import ShoeCard from "../components/ShoeCard";
 import { useState } from "react";
 

@@ -1,6 +1,8 @@
 import footer from '../assets/images/footer-logo.svg'
 import copy from '../assets/icons/copyright-sign.svg'
-import {facebook,twitter,instagram}  from '../assets/icons'
+import facebook from '../assets/icons/facebook.svg'
+import twitter from '../assets/icons/twitter.svg'
+import instagram from '../assets/icons/instagram.svg'
 interface social{
   src: string,
   alt:string,
