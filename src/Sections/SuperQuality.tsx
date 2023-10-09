@@ -1,6 +1,7 @@
 import Button from "../components/Button";
 import arrow from '../assets/icons/arrow-right.svg'
 import shoe from '../assets/images/shoe8.svg'
+import '../index.css'
 
 const SuperQuality = () => {
   return (
@@ -15,7 +16,9 @@ const SuperQuality = () => {
         <p className="leading-7 mt-6  lg:max-w-lg font-montserrat text-lg text-slate-gray">
           Ensuring premium comfort and style our tremendous footwear is design to elevate your experinece,innovation for a active life</p>
         <p className="leading-7 font-palanquin text-lg text-slate-gray">Our dedication to Experience you life seemlessly</p>
-        <div className="mt-10"><Button label="View details" arrow={arrow} /></div>
+        <div className="mt-10">
+          <Button label="View details" arrow={arrow} />
+        </div>
       
       </div>
       <div className="flex flex-1 justify-center items-center">
