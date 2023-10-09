@@ -31,7 +31,7 @@ const CustomerReviews = () => {
         <h3 className='font-palanquin font-bold text-4xl'>What Our <span className='text-coral-red'>Customers</span> Say?</h3>
         <p className='info-text mt-4 m-auto max-w-lg text-center'>Here genuenie stories from our customer of ther exceptional experinece
           from there life using our products</p>
-        <div className='flex justify-evenly flex-1 mt-24 items-center flex-col'>
+        <div className='flex justify-evenly flex-1 mt-24 items-center flex-col '>
           {reviews.map((review:rev) => (
             <ReviewCard key={review.imgURL} {...review} />
           ))}
